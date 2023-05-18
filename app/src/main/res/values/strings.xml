@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Aplikasi Editing</string>
+    <string name="greeting_message">Hello </string>
+    <string name="artikel_title">Artikel Software</string>
+    <string name="sell">Jual</string>
+    <string name="quantity">Jumlah Stok:</string>
+    <string name="quantity_req">Jumlah Stok <font color='#FF0000'>*</font></string>
+    <string name="item_name_req">Nama Aplikasi <font color='#FF0000'>*</font></string>
+    <string name="item_price_req">Harga Aplikasi <font color='#FF0000'>*</font></string>
+    <string name="save_action">Simpan</string>
+    <string name="item_detail_fragment_title">Rincian Aplikasi</string>
+    <string name="add_fragment_title">Tambah Aplikasi</string>
+    <string name="edit_fragment_title">Edit Aplikasi</string>
+    <string name="price">Harga</string>
+    <string name="quantity_in_stock">Stok</string>
+    <string name="item">Nama Aplikasi</string>
+    <string name="delete">Hapus</string>
+    <string name="delete_question">Anda Yakin Ingin Menghapus Barang?</string>
+    <string name="no">Tidak</string>
+    <string name="yes">Iya</string>
+    <string name="edit_item">Edit Aplikasi</string>
+    <string name="add_new_item">Tambah Aplikasi Baru</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="descCard">Selamat datang di artikel aplikasi \nediting dan catatan jual aplikasi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="deskripsi_app">Aplikasi kumpulan artikel untuk aplikasi editing, seperti aplikasi dari Adobe, merupakan sebuah platform yang menyediakan berbagai macam artikel terkait dengan dunia editing dan desain grafis.</string>
+    <string name="deskripsi_tujuan"><b>1. Tujuan </b>\n\nAplikasi ini bertujuan untuk memberikan informasi dalam menggunakan berbagai aplikasi editing yang dikembangkan oleh Adobe, seperti Adobe Photoshop, Adobe Illustrator, dan Adobe Premiere Pro. Dengan aplikasi ini.</string>
+    <string name="deskripsi_fitur"><b>2. Fitur Beli Software</b>\n\nSelain dapat membaca informasi berbagai macam aplikasi editing, disini tersedia fitur membeli software adobe original atau sudah official adobe creative cloud, jadi yu segera langganan aplikasi nya jangan sampai bajakan ya!</string>
+    <string name="deskripsi_tentang"><b>3. Tentang</b>\n\nAplikasi ini dibuat oleh Sayyidusy syauqi al ghiffari (6706213149)</string>
+    <string-array name="title_array">
+        <item>Adobe Photoshop</item>
+        <item>Adobe Lightroom</item>
+        <item>Adobe Photoshop Camera</item>
+        <item>Adobe Premiere Rush</item>
+        <item>Adobe Animate</item>
+        <item>Adobe After Effects</item>
+        <item>Adobe Illustrator</item>
+        <item>Adobe InDesign</item>
+        <item>Adobe XD</item>
+        <item>Figma</item>
+    </string-array>
+    <string-array name="description_array">
+        <item>Adobe Photoshop adalah perangkat lunak pengeditan foto dan grafis yang dikembangkan oleh Adobe Systems. Program ini memungkinkan penggunanya untuk mengedit, memanipulasi, dan memperbaiki foto dan gambar digital dengan berbagai alat seperti pensil, kuas, dan filter.</item>
+        <item>Adobe Lightroom adalah perangkat lunak pengeditan foto dan grafis yang dikembangkan oleh Adobe Systems. Program ini memungkinkan penggunanya untuk mengedit, memanipulasi, dan memperbaiki foto dan gambar digital dengan berbagai alat seperti pensil, kuas, dan filter.</item>
+        <item>Adobe Photoshop Camera adalah aplikasi kamera yang dikembangkan oleh Adobe Systems. Program ini memungkinkan penggunanya untuk mengedit, memanipulasi, dan memperbaiki foto dan gambar digital dengan berbagai alat seperti pensil, kuas, dan filter.</item>
+        <item>Adobe Premiere Rush adalah aplikasi pengeditan video yang dikembangkan oleh Adobe Systems. Program ini memungkinkan penggunanya untuk mengedit, memanipulasi, dan memperbaiki foto dan gambar digital dengan berbagai alat seperti pensil, kuas, dan filter.</item>
+        <item>Adobe Animate adalah aplikasi pengeditan video yang dikembangkan oleh Adobe Systems. Program ini memungkinkan penggunanya untuk mengedit, memanipulasi, dan memperbaiki foto dan gambar digital dengan berbagai alat seperti pensil, kuas, dan filter.</item>
+        <item>Adobe After Effects adalah aplikasi pengeditan video yang dikembangkan oleh Adobe Systems. Program ini memungkinkan penggunanya untuk mengedit, memanipulasi, dan memperbaiki foto dan gambar digital dengan berbagai alat seperti pensil, kuas, dan filter.</item>
+        <item>Adobe Illustrator adalah aplikasi pengeditan video yang dikembangkan oleh Adobe Systems. Program ini memungkinkan penggunanya untuk mengedit, memanipulasi, dan memperbaiki foto dan gambar digital dengan berbagai alat seperti pensil, kuas, dan filter.</item>
+        <item>Adobe InDesign adalah aplikasi pengeditan video yang dikembangkan oleh Adobe Systems. Program ini memungkinkan penggunanya untuk mengedit, memanipulasi, dan memperbaiki foto dan gambar digital dengan berbagai alat seperti pensil, kuas, dan filter.</item>
+        <item>Adobe XD adalah aplikasi pengeditan video yang dikembangkan oleh Adobe Systems. Program ini memungkinkan penggunanya untuk mengedit, memanipulasi, dan memperbaiki foto dan gambar digital dengan berbagai alat seperti pensil, kuas, dan filter.</item>
+        <item>Figma adalah aplikasi pengeditan video yang dikembangkan oleh Adobe Systems. Program ini memungkinkan penggunanya untuk mengedit, memanipulasi, dan memperbaiki foto dan gambar digital dengan berbagai alat seperti pensil, kuas, dan filter.</item>
+    </string-array>
+
+</resources>
