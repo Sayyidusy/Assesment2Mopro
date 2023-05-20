@@ -31,8 +31,6 @@ class ArtikelActivity : AppCompatActivity() {
         binding = ActivityArtikelBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
-
         // disini kita membuat variable untuk switch material
         val switchMaterial = binding.switchMaterial
 

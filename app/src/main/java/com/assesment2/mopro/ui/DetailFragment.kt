@@ -1,5 +1,6 @@
 package com.assesment2.mopro.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -89,6 +90,9 @@ class DetailFragment : Fragment() {
             item = selectedItem
             bind(item)
         }
+        binding.shareItem.setOnClickListener {
+            shareItem()
+        }
     }
 
 
@@ -96,4 +100,16 @@ class DetailFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+
+    private fun shareItem() {
+        val shareIntent = Intent(Intent.ACTION_SEND)
+        shareIntent.type = "text/plain"
+        shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Item Details")
+        shareIntent.putExtra(Intent.EXTRA_TEXT, "Item Name: ${item.itemName}\n" +
+                "Item Price: ${item.getFormattedPrice()}\n" +
+                "Item Count: ${item.quantityInStock}")
+        startActivity(Intent.createChooser(shareIntent, "Share Item"))
+    }
+
+
 }
