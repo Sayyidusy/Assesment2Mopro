@@ -9,7 +9,6 @@ import com.assesment2.mopro.data.Item
 import com.assesment2.mopro.data.BarangDao
 import kotlinx.coroutines.launch
 
-
 class InventoryViewModel(private val barangDao: BarangDao) : ViewModel() {
     val allItems: LiveData<List<Item>> = barangDao.getItems().asLiveData()
     fun isStockAvailable(item: Item): Boolean {

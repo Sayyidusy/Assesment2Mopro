@@ -74,12 +74,6 @@ class ArtikelActivity : AppCompatActivity() {
         // Fungsi untuk mencari data
         searchList = arrayListOf()
 
-        // Inisialisasi viewModel
-        val viewModel: MainViewModel by lazy {
-            ViewModelProvider(this).get(MainViewModel::class.java)
-        }
-        // Memanggil fungsi fetchData() dari viewModel
-        viewModel.fetchData()
 
         binding.search.clearFocus()
         binding.search.setOnQueryTextListener(object : SearchView.OnQueryTextListener {

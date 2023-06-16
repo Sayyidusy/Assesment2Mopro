@@ -39,12 +39,12 @@ class MainActivity : AppCompatActivity() {
 
             it.isChecked = true
             when(it.itemId){
-                R.id.nav_home -> {
-                    // Navigasi ke HomeActivity menggunakan Intent
-                    val intent = Intent(this, ArtikelActivity::class.java)
-                    startActivity(intent)
-                    true
-                }
+                R.id.nav_home -> replaceFragment(MainFragment(), it.title.toString())
+//                R.id.nav_home -> {
+//                    val intent = Intent(this, ArtikelActivity::class.java)
+//                    startActivity(intent)
+//                    true
+//                }
                 R.id.nav_beli -> {
                     // Navigasi ke HistoryActivity menggunakan Intent
                     val intent = Intent(this, MainActivity::class.java)

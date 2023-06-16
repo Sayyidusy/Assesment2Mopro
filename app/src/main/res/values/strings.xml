@@ -14,6 +14,7 @@
     <string name="price">Harga</string>
     <string name="quantity_in_stock">Stok</string>
     <string name="item">Nama Aplikasi</string>
+    <string name="koneksi_error">Koneksi Error</string>
     <string name="delete">Hapus</string>
     <string name="delete_question">Anda Yakin Ingin Menghapus Barang?</string>
     <string name="no">Tidak</string>
