@@ -26,6 +26,8 @@
     <string name="descCard">Selamat datang di artikel aplikasi \nediting dan catatan jual aplikasi</string>
     <string name="channel_name">Updater</string>
     <string name="channel_desc">Update data aplikasi otomatis</string>
+    <string name="notif_title">Ada Aplikasi baru!</string>
+    <string name="notif_text">Cek sekarang biar nggak penasaran..</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
