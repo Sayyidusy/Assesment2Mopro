@@ -1,6 +1,10 @@
 package com.assesment2.mopro
 
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.content.Context
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -16,12 +20,25 @@ class MainActivity : AppCompatActivity() {
     lateinit var  toggle : ActionBarDrawerToggle
     lateinit var drawerLayout: DrawerLayout
 
-
+    companion object {
+        const val CHANNEL_ID = "updater"
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            val name = getString(R.string.channel_name)
+            val importance = NotificationManager.IMPORTANCE_DEFAULT
+            val channel = NotificationChannel(CHANNEL_ID, name, importance)
+            channel.description = getString(R.string.channel_desc)
+            val manager = getSystemService(Context.NOTIFICATION_SERVICE)
+                    as NotificationManager?
+            manager?.createNotificationChannel(channel)
+        }
+
 
         val name = intent.getStringExtra(ArtikelActivity.NAME)
         binding.titleCard.text = getString(R.string.greeting_message)+" "+ name
